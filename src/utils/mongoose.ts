@@ -12,7 +12,7 @@ export async function connectDB() {
 
   //await for connection //////DONT FORGET TO ADD URI HERE////////////
   const MONGODB_URI =
-    "mongodb+srv://root:root@blogit.ac91ify.mongodb.net/?retryWrites=true&w=majority&appName=BLOGIT";
+    "";
 
   const db = await connect(MONGODB_URI);
 
